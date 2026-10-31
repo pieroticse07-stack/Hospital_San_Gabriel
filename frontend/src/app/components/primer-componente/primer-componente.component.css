@@ -1,0 +1,14 @@
+.card {
+  border-radius: 0.75rem;
+}
+
+.table th {
+  font-size: 0.825rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}
+
+.input-group-text {
+  color: #6c757d;
+}
