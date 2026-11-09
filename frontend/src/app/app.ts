@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { PrimerComponenteComponent } from './components/primer-componente/primer-componente.component';
+import { FormularioPersonaComponent } from './components/formulario-persona/formulario-persona';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [PrimerComponenteComponent],
+  imports: [FormularioPersonaComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

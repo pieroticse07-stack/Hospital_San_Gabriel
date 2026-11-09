@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { PrimerComponenteComponent } from './components/primer-componente/primer-componente.component';
+import { FormularioPersonaComponent } from './components/formulario-persona/formulario-persona';
 
 export const routes: Routes = [
-  { path: '', component: PrimerComponenteComponent },
+  { path: '', component: FormularioPersonaComponent },
   { path: '**', redirectTo: '' }
 ];

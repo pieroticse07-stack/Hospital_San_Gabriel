@@ -5,13 +5,13 @@ import { PrimerComponenteService } from '../../services/primer-componente.servic
 import { Persona } from '../../interfaces/persona';
 
 @Component({
-  selector: 'app-primer-componente',
+  selector: 'app-formulario-persona',
   standalone: true,
   imports: [CommonModule, FormField],
-  templateUrl: './primer-componente.component.html',
-  styleUrl: './primer-componente.component.css'
+  templateUrl: './formulario-persona.html',
+  styleUrl: './formulario-persona.css'
 })
-export class PrimerComponenteComponent implements OnInit {
+export class FormularioPersonaComponent implements OnInit {
   private readonly personaService = inject(PrimerComponenteService);
 
   // Signals para el estado
